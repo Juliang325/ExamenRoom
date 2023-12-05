@@ -1,16 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    //Necesario para Room
     id 'kotlin-kapt'
 }
 
 android {
-    namespace 'com.manucg.plantillaroom'
+    namespace 'com.julian.plantillaroom'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.manucg.plantillaroom"
+        applicationId "com.julian.plantillaroom"
         minSdk 25
         targetSdk 34
         versionCode 1
